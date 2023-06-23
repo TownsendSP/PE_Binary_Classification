@@ -64,8 +64,8 @@ def main():
 
 
     # initialize the data loaders
-    train_loader = DataLoader(train_dataset, batch_size=1, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=1, shuffle=True)
+    train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=True)
 
     # print the number of batches in each loader
     print(f"Train batches: {len(train_loader)}")
