@@ -189,4 +189,4 @@ def main2():
             print("\t\t0x%x:\t%s\t%s" % (i.address, i.mnemonic, i.op_str))
 
 if __name__ == '__main__':
-    main2()
+    main()
